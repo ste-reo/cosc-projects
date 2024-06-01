@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Sans+MS&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.page {
+  width: 100vw;
+  height: 100vh;
+  padding: 20px 40px;
+  background: pink;
+  font-size: 16pt;
+  font-style: normal;
+}
+
+.heading {
+  font-family: "Comic Sans MS";
+}
+
+.list ol li {
+  width: fit-content;
+  background: green;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+.list ol li::marker {
+  background-color: yellow;
+}
+
+.links a {
+  font-style: italic;
+  color: purple;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,23 @@
+body{
+    background-color: #FF69B4;
+    font-size: 16pt;
+
+}
+header{
+    font-family: 'Comic', 'Sans', 'Ms'
+
+    ;
+}
+li{
+    background-color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+a{
+    color: purple;
+}
+q{
+    font-style: italic;
+}
+ol li:nth-child(n+1):nth-child(-n+5)::marker {
+    color: yellow;
+}
